@@ -1,0 +1,11 @@
+[project]
+name = "seclist"
+version = "0.0.1"
+dependencies = ["bs4", "lxml", "pandas", "requests", "tqdm"]
+
+[project.scripts]
+seclist = "seclist.cli:main"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
